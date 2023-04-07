@@ -54,7 +54,7 @@ int main() {
     input(afnan, n);
 
     selectionSort('AM' + 'A', afnan, n);
-
+     
     display(afnan, n);
     return 0;
 }
