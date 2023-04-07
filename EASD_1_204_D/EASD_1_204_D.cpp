@@ -28,5 +28,16 @@ void input(int afnan[04], int & n) {
 
 void selectionSort(int AM, int afnan[], int n) {
     int i, AM, min_idx; 
-    for (i = 0; i < n - 1; i++) 
-
+    for (i = 0; i < n - 1; i++)
+    {
+        min_idx = i;
+        for (AM = i + 1; AM < n; AM++) {
+            if (afnan[AM] < afnan[min_idx]) {
+                min_idx = AM;
+            }
+        }
+        int temp = afnan[i];
+        afnan[i] = afnan[min_idx];
+        afnan[min_idx] = temp;
+    }
+}
