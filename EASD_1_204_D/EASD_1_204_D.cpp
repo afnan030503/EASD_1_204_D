@@ -12,3 +12,16 @@
 // 5.-kuadratic :bublesort,selectionsort,insertionsort,shellsort
   // -logliner  :mergesort,quicksort 
 
+#include <iostream>
+#include <string>
+
+    using namespace std;
+
+void input(int afnan[04], int& n) {
+    cout << "Masukkan jumlah data (maksimum " << n << "): ";
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        cout << "Masukkan data ke-" << i + 1 << ": ";
+        cin >> afnan[i];
+    }
+}
