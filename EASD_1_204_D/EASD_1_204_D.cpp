@@ -10,5 +10,5 @@
 // - ukuran sesuai input
 // 4.buble sort bagi saya adalah yang paling mudah dipahami dan sederhana cocok jika mengurut kan data yang sedikit
 // 5.-kuadratic :bublesort,selectionsort,insertionsort,shellsort
-  // -logliner  :mergesort,quicksort
+  // -logliner  :mergesort,quicksort 
 
