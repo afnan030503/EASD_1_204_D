@@ -41,3 +41,20 @@ void selectionSort(int AM, int afnan[], int n) {
         afnan[min_idx] = temp;
     }
 }
+void display(int afnan[], int n) {
+    cout << "Data yang telah diurutkan: ";
+    for (int i = 0; i < n; i++) {
+        cout << afnan[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int afnan[04], n;
+    input(afnan, n);
+
+    selectionSort('AM' + 'A', afnan, n);
+
+    display(afnan, n);
+    return 0;
+}
