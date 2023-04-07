@@ -51,7 +51,7 @@ void display(int afnan[], int n) {
 
 int main() {
     int afnan[04], n;
-    input(afnan, n);
+    input(afnan, n); 
 
     selectionSort('AM' + 'A', afnan, n);
      
