@@ -48,7 +48,7 @@ void display(int afnan[], int n) {
     }
     cout << endl;
 }
-
+ 
 int main() {
     int afnan[04], n;
     input(afnan, n); 
