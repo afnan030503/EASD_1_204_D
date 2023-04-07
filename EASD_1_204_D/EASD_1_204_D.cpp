@@ -17,7 +17,7 @@
 
     using namespace std;
 
-void input(int afnan[04], int& n) {
+void input(int afnan[04], int & n) {
     cout << "Masukkan jumlah data (maksimum " << n << "): ";
     cin >> n;
     for (int i = 0; i < n; i++) {
@@ -25,3 +25,6 @@ void input(int afnan[04], int& n) {
         cin >> afnan[i];
     }
 }
+
+void selectionSort(int AM, int afnan[], int n) {
+    int i, AM, min_idx; 
